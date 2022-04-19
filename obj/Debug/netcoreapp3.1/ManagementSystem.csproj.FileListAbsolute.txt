@@ -1,0 +1,17 @@
+C:\Users\MahbuburRahman\source\repos\j\ManagementSystem\bin\Debug\netcoreapp3.1\ManagementSystem.exe
+C:\Users\MahbuburRahman\source\repos\j\ManagementSystem\bin\Debug\netcoreapp3.1\ManagementSystem.deps.json
+C:\Users\MahbuburRahman\source\repos\j\ManagementSystem\bin\Debug\netcoreapp3.1\ManagementSystem.runtimeconfig.json
+C:\Users\MahbuburRahman\source\repos\j\ManagementSystem\bin\Debug\netcoreapp3.1\ManagementSystem.runtimeconfig.dev.json
+C:\Users\MahbuburRahman\source\repos\j\ManagementSystem\bin\Debug\netcoreapp3.1\ManagementSystem.dll
+C:\Users\MahbuburRahman\source\repos\j\ManagementSystem\bin\Debug\netcoreapp3.1\ManagementSystem.pdb
+C:\Users\MahbuburRahman\source\repos\j\ManagementSystem\obj\Debug\netcoreapp3.1\ManagementSystem.csproj.AssemblyReference.cache
+C:\Users\MahbuburRahman\source\repos\j\ManagementSystem\obj\Debug\netcoreapp3.1\ManagementSystem.Login.resources
+C:\Users\MahbuburRahman\source\repos\j\ManagementSystem\obj\Debug\netcoreapp3.1\ManagementSystem.csproj.GenerateResource.cache
+C:\Users\MahbuburRahman\source\repos\j\ManagementSystem\obj\Debug\netcoreapp3.1\ManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MahbuburRahman\source\repos\j\ManagementSystem\obj\Debug\netcoreapp3.1\ManagementSystem.AssemblyInfoInputs.cache
+C:\Users\MahbuburRahman\source\repos\j\ManagementSystem\obj\Debug\netcoreapp3.1\ManagementSystem.AssemblyInfo.cs
+C:\Users\MahbuburRahman\source\repos\j\ManagementSystem\obj\Debug\netcoreapp3.1\ManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\MahbuburRahman\source\repos\j\ManagementSystem\obj\Debug\netcoreapp3.1\ManagementSystem.dll
+C:\Users\MahbuburRahman\source\repos\j\ManagementSystem\obj\Debug\netcoreapp3.1\ManagementSystem.pdb
+C:\Users\MahbuburRahman\source\repos\j\ManagementSystem\obj\Debug\netcoreapp3.1\ManagementSystem.genruntimeconfig.cache
+C:\Users\MahbuburRahman\source\repos\j\ManagementSystem\obj\Debug\netcoreapp3.1\ManagementSystem.Signup.resources
