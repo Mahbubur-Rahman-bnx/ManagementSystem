@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -66,6 +67,38 @@ namespace ManagementSystem
 
         }
 
+        bool emailExists()
+        {
+            try
+            {
+                SqlConnection con = new SqlConnection(CommonClass.strcon);
+                if (con.State == ConnectionState.Closed) con.Open();
+
+                String qur = "select email from users where email='" + textBoxEmail.Text.Trim() + "';";
+                SqlCommand cmd = new SqlCommand(qur, con);
+
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                DataTable dt = new DataTable();
+                da.Fill(dt);
+
+                if (dt.Rows.Count >= 1)
+                {
+                    lblMessage.Text = "Email already exist";
+                    lblMessage.Visible = true;
+                    return true;
+                }
+
+                else return false;
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+
+            }
+            return false;
+        }
+
         bool validEmail()
         {
             if (Regex.IsMatch(textBoxEmail.Text.Trim(), @"^[a-zA-Z][\w\.-]*[a-zA-Z0-9]@[a-zA-Z0-9][\w\.-]*[a-zA-Z0-9]\.[a-zA-Z][a-zA-Z\.]*[a-zA-Z]$"))
@@ -106,14 +139,54 @@ namespace ManagementSystem
 
         private void btnSignUp_Click(object sender, EventArgs e)
         {
-            if(validName() && validPhone() && validEmail() && validPassword())
+            if(validName() && validPhone() && validEmail() && validPassword() && !emailExists())
             {
                 //save to db
+                try
+                {
+                    if (CommonClass.checkTheDatabase())
+                    {
+                        System.Diagnostics.Debug.WriteLine("ok db");
 
-                this.Dispose();
-                //this.Hide();
-                l1.Show();
+                        using (SqlConnection con = new SqlConnection(CommonClass.strcon))
+                        {
+
+                            using (SqlCommand cmd = new SqlCommand())
+                            {
+                                string qur = "insert into users " +
+                                    "(name,phone,email,dob,gender,country,password) values " +
+                                    "('" + textBoxName.Text.Trim() +
+                                    "','" + textBoxPhone.Text.Trim() +
+                                    "','" + textBoxEmail.Text.Trim() +
+                                    "','" + textBoxDOB.Text.Trim() +
+                                    "','male'" +
+                                    " ,'" + textBoxCountry.Text.Trim() +
+                                    "','" + textBoxPassword.Text.Trim() + "')";
+
+                                System.Diagnostics.Debug.WriteLine(qur);
+                                con.Open();
+                                cmd.CommandText = qur;
+                                cmd.Connection = con;
+                                cmd.ExecuteNonQuery();
+
+                                this.Dispose();
+                                //this.Hide();
+                                l1.Show();
+                            }
+
+                        }
+
+                    }
+                }
+                catch (Exception ex)
+                {
+                    System.Diagnostics.Debug.WriteLine(ex);
+                }
+
+
+                
             }
+            
 
         } 
     }

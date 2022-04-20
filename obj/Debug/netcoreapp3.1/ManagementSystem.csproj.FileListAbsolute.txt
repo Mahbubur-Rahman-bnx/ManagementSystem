@@ -15,3 +15,13 @@ C:\Users\MahbuburRahman\source\repos\j\ManagementSystem\obj\Debug\netcoreapp3.1\
 C:\Users\MahbuburRahman\source\repos\j\ManagementSystem\obj\Debug\netcoreapp3.1\ManagementSystem.pdb
 C:\Users\MahbuburRahman\source\repos\j\ManagementSystem\obj\Debug\netcoreapp3.1\ManagementSystem.genruntimeconfig.cache
 C:\Users\MahbuburRahman\source\repos\j\ManagementSystem\obj\Debug\netcoreapp3.1\ManagementSystem.Signup.resources
+C:\Users\MahbuburRahman\source\repos\j\ManagementSystem\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\MahbuburRahman\source\repos\j\ManagementSystem\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\MahbuburRahman\source\repos\j\ManagementSystem\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\MahbuburRahman\source\repos\j\ManagementSystem\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\MahbuburRahman\source\repos\j\ManagementSystem\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\MahbuburRahman\source\repos\j\ManagementSystem\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\MahbuburRahman\source\repos\j\ManagementSystem\obj\Debug\netcoreapp3.1\ManagementSystem.Dashboard.resources
+C:\Users\MahbuburRahman\source\repos\j\ManagementSystem\obj\Debug\netcoreapp3.1\ManagementSystem.csproj.CopyComplete
+C:\Users\MahbuburRahman\source\repos\j\ManagementSystem\obj\Debug\netcoreapp3.1\ManagementSystem.Admin_Task_Board.resources
+C:\Users\MahbuburRahman\source\repos\j\ManagementSystem\obj\Debug\netcoreapp3.1\ManagementSystem.Admin_Insert.resources
